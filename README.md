@@ -3,7 +3,7 @@ minitest-pride integration for minitest-reporters
 
 ## Usage
 
-I'm currently holding off to gemify this as an experiment for (gemmy_rb)[https://github.com/jbodah/gemmy_rb].
+I'm currently holding off to gemify this as an experiment for [gemmy_rb](https://github.com/jbodah/gemmy_rb).
 
 Here's the basic gist of the code:
 
