@@ -12,5 +12,8 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/jbodah/minitest-reporters-pride_reporter'
 
   s.add_development_dependency 'rake', '~>0'
+
+  s.add_dependency 'minitest', '~>5'
+  s.add_dependency 'minitest-reporters', '~>1'
 end
 
