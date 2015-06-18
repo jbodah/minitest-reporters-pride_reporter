@@ -1,9 +1,10 @@
-require 'minitest/reporters/pride_reporter/version'
 require 'minitest/reporters'
 require 'minitest/pride_plugin'
 
 module Minitest::Reporters
   class PrideReporter < DefaultReporter
+    VERSION = '0.0.1'
+
     def initialize(options = {})
       super
       @pride_io = Minitest::PrideLOL.new($stdout)

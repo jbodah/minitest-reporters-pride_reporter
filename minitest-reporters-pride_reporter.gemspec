@@ -1,4 +1,4 @@
-require_relative 'lib/minitest/reporters/pride_reporter/version'
+require_relative 'lib/minitest/reporters/pride_reporter'
 
 Gem::Specification.new do |s|
   s.name        = 'minitest-reporters-pride_reporter'
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = 'jb3689@yahoo.com'
   s.files       = Dir['lib/**/*.rb']
   s.homepage    = 'https://github.com/jbodah/minitest-reporters-pride_reporter'
-  
-s.add_development_dependency 'rake', '~>0'
+
+  s.add_development_dependency 'rake', '~>0'
 end
 
