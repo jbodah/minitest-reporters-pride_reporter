@@ -3,7 +3,7 @@ require 'minitest/pride_plugin'
 
 module Minitest::Reporters
   class PrideReporter < DefaultReporter
-    VERSION = '0.0.1a'
+    VERSION = '0.0.2'
 
     def initialize(options = {})
       super
