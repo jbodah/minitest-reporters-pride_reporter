@@ -11,7 +11,7 @@ gem install minitest-reporters-pride_reporter
 ## Usage
 
 ```rb
-require 'minitest-reporters-pride_reporter'
+require 'minitest/reporters/pride_reporter'
 
 if ENV['REPORTER'] == 'pride'
   reporter = Minitest::Reporters::PrideReporter.new(fast_fail: true, slow_count: 20)
